@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/nob1mac/dev/test-web3-app/contracts/Hello.sol": {
-      "lastModificationDate": 1654769886553,
-      "contentHash": "9b078f6a1d51af29c4d333d5a0020a0f",
+      "lastModificationDate": 1654820700447,
+      "contentHash": "6c836ea73123b6cc67b39559ebecf83b",
       "sourceName": "contracts/Hello.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -34,6 +34,41 @@
       ],
       "artifacts": [
         "Hello"
+      ]
+    },
+    "/Users/nob1mac/dev/test-web3-app/contracts/Counter.sol": {
+      "lastModificationDate": 1654822730854,
+      "contentHash": "90e2185fb9460b080decee77b226cebd",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
       ]
     }
   }
