@@ -33,13 +33,13 @@ npx hardhat node
 ```
 
 ```sh
-npx hardhat run scripts/sample-script.js
+npx hardhat run scripts/deploy.js
 ```
 
 ### Rinkeby の場合
 
 ```sh
-npx hardhat run scripts/sample-script.js --network rinkeby
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
 `hardhat.config.js`の変更と環境変数の設定が必要

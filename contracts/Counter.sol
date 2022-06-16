@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract Counter {
-    uint256 public count;
+    uint256 public count; // 変数を定義 初期値は0
 
     function getCount() public view returns (uint256) {
         return count;
